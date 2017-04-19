@@ -10,7 +10,3 @@ def f(num)
 end
 
 puts Benchmark.measure { f(ARGV[0].to_i) }
-
-#430 with standard json
-#750 with Oj
-#vs python 449

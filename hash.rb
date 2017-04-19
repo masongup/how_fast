@@ -14,6 +14,3 @@ def f(num)
 end
 
 puts Benchmark.measure { f(ARGV[0].to_i) }
-
-#700_000_000
-#vs python 455_000_000
